@@ -142,7 +142,7 @@ readFile()
 createGraph()
 createWeightedGraph()
 
-
+manu = menu + "Name: Himanjal Sharma\n"
 menu = "Enter the Number of the Search\n"
 menu = menu + "\t1. Depth 1st search\n"
 menu = menu + "\t2. Breadth 1st search\n"
