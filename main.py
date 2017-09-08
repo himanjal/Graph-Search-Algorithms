@@ -147,7 +147,10 @@ def printMenu():
     menu = menu + "\t6. A* Search\n"
     print menu
 
-    choice = int(raw_input("Choose Number:"))
+    choice = 0
+    while(choice not in range(1,6)):
+        choice = int(raw_input("Choose a Valid Number:"))
+
     return choice
 
 
@@ -167,7 +170,5 @@ while (answer.upper() == "Y"):
     answer = raw_input("\nContinue Search with a different method?(Yes = Y, No = N)")
 
 
-
-
-
+os.system("find . -name \"*.pyc\" -exec rm -rf {} \;")
 
